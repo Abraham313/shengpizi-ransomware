@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28516.95
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "shengpizi-ransomware", "shengpizi-ransomware\shengpizi-ransomware.vbproj", "{1002CBA2-F5A1-4949-9469-75AE07272F46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1002CBA2-F5A1-4949-9469-75AE07272F46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1002CBA2-F5A1-4949-9469-75AE07272F46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1002CBA2-F5A1-4949-9469-75AE07272F46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1002CBA2-F5A1-4949-9469-75AE07272F46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3539C651-9752-42D1-99E2-FF376E97FA49}
+	EndGlobalSection
+EndGlobal
