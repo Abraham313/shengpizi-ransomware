@@ -59,161 +59,170 @@ Partial Class Form1
         'ListBox1
         '
         Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Location = New System.Drawing.Point(49, 12)
+        Me.ListBox1.ItemHeight = 12
+        Me.ListBox1.Location = New System.Drawing.Point(49, 11)
         Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(120, 95)
+        Me.ListBox1.Size = New System.Drawing.Size(120, 88)
         Me.ListBox1.TabIndex = 0
         Me.ListBox1.Visible = False
         '
         'ListBox2
         '
         Me.ListBox2.FormattingEnabled = True
-        Me.ListBox2.Location = New System.Drawing.Point(251, 12)
+        Me.ListBox2.ItemHeight = 12
+        Me.ListBox2.Location = New System.Drawing.Point(251, 11)
         Me.ListBox2.Name = "ListBox2"
-        Me.ListBox2.Size = New System.Drawing.Size(120, 95)
+        Me.ListBox2.Size = New System.Drawing.Size(120, 88)
         Me.ListBox2.TabIndex = 1
         Me.ListBox2.Visible = False
         '
         'ListBox3
         '
         Me.ListBox3.FormattingEnabled = True
-        Me.ListBox3.Location = New System.Drawing.Point(408, 12)
+        Me.ListBox3.ItemHeight = 12
+        Me.ListBox3.Location = New System.Drawing.Point(408, 11)
         Me.ListBox3.Name = "ListBox3"
-        Me.ListBox3.Size = New System.Drawing.Size(120, 95)
+        Me.ListBox3.Size = New System.Drawing.Size(120, 88)
         Me.ListBox3.TabIndex = 2
         Me.ListBox3.Visible = False
         '
         'ListBox4
         '
         Me.ListBox4.FormattingEnabled = True
-        Me.ListBox4.Location = New System.Drawing.Point(571, 12)
+        Me.ListBox4.ItemHeight = 12
+        Me.ListBox4.Location = New System.Drawing.Point(571, 11)
         Me.ListBox4.Name = "ListBox4"
-        Me.ListBox4.Size = New System.Drawing.Size(120, 95)
+        Me.ListBox4.Size = New System.Drawing.Size(120, 88)
         Me.ListBox4.TabIndex = 3
         Me.ListBox4.Visible = False
         '
         'ListBox5
         '
         Me.ListBox5.FormattingEnabled = True
-        Me.ListBox5.Location = New System.Drawing.Point(18, 189)
+        Me.ListBox5.ItemHeight = 12
+        Me.ListBox5.Location = New System.Drawing.Point(18, 174)
         Me.ListBox5.Name = "ListBox5"
-        Me.ListBox5.Size = New System.Drawing.Size(120, 95)
+        Me.ListBox5.Size = New System.Drawing.Size(120, 88)
         Me.ListBox5.TabIndex = 4
         Me.ListBox5.Visible = False
         '
         'ListBox6
         '
         Me.ListBox6.FormattingEnabled = True
-        Me.ListBox6.Location = New System.Drawing.Point(144, 189)
+        Me.ListBox6.ItemHeight = 12
+        Me.ListBox6.Location = New System.Drawing.Point(144, 174)
         Me.ListBox6.Name = "ListBox6"
-        Me.ListBox6.Size = New System.Drawing.Size(120, 95)
+        Me.ListBox6.Size = New System.Drawing.Size(120, 88)
         Me.ListBox6.TabIndex = 5
         Me.ListBox6.Visible = False
         '
         'ListBox7
         '
         Me.ListBox7.FormattingEnabled = True
-        Me.ListBox7.Location = New System.Drawing.Point(270, 189)
+        Me.ListBox7.ItemHeight = 12
+        Me.ListBox7.Location = New System.Drawing.Point(270, 174)
         Me.ListBox7.Name = "ListBox7"
-        Me.ListBox7.Size = New System.Drawing.Size(120, 95)
+        Me.ListBox7.Size = New System.Drawing.Size(120, 88)
         Me.ListBox7.TabIndex = 6
         Me.ListBox7.Visible = False
         '
         'ListBox8
         '
         Me.ListBox8.FormattingEnabled = True
-        Me.ListBox8.Location = New System.Drawing.Point(408, 189)
+        Me.ListBox8.ItemHeight = 12
+        Me.ListBox8.Location = New System.Drawing.Point(408, 174)
         Me.ListBox8.Name = "ListBox8"
-        Me.ListBox8.Size = New System.Drawing.Size(120, 95)
+        Me.ListBox8.Size = New System.Drawing.Size(120, 88)
         Me.ListBox8.TabIndex = 7
         Me.ListBox8.Visible = False
         '
         'ListBox9
         '
         Me.ListBox9.FormattingEnabled = True
-        Me.ListBox9.Location = New System.Drawing.Point(581, 189)
+        Me.ListBox9.ItemHeight = 12
+        Me.ListBox9.Location = New System.Drawing.Point(581, 174)
         Me.ListBox9.Name = "ListBox9"
-        Me.ListBox9.Size = New System.Drawing.Size(120, 95)
+        Me.ListBox9.Size = New System.Drawing.Size(120, 88)
         Me.ListBox9.TabIndex = 8
         Me.ListBox9.Visible = False
         '
         'ProgressBar1
         '
-        Me.ProgressBar1.Location = New System.Drawing.Point(49, 113)
+        Me.ProgressBar1.Location = New System.Drawing.Point(49, 104)
         Me.ProgressBar1.Name = "ProgressBar1"
-        Me.ProgressBar1.Size = New System.Drawing.Size(100, 23)
+        Me.ProgressBar1.Size = New System.Drawing.Size(100, 21)
         Me.ProgressBar1.TabIndex = 9
         Me.ProgressBar1.Visible = False
         '
         'ProgressBar2
         '
-        Me.ProgressBar2.Location = New System.Drawing.Point(251, 113)
+        Me.ProgressBar2.Location = New System.Drawing.Point(251, 104)
         Me.ProgressBar2.Name = "ProgressBar2"
-        Me.ProgressBar2.Size = New System.Drawing.Size(100, 23)
+        Me.ProgressBar2.Size = New System.Drawing.Size(100, 21)
         Me.ProgressBar2.TabIndex = 10
         Me.ProgressBar2.Visible = False
         '
         'ProgressBar3
         '
-        Me.ProgressBar3.Location = New System.Drawing.Point(408, 113)
+        Me.ProgressBar3.Location = New System.Drawing.Point(408, 104)
         Me.ProgressBar3.Name = "ProgressBar3"
-        Me.ProgressBar3.Size = New System.Drawing.Size(100, 23)
+        Me.ProgressBar3.Size = New System.Drawing.Size(100, 21)
         Me.ProgressBar3.TabIndex = 11
         Me.ProgressBar3.Visible = False
         '
         'ProgressBar4
         '
-        Me.ProgressBar4.Location = New System.Drawing.Point(571, 113)
+        Me.ProgressBar4.Location = New System.Drawing.Point(571, 104)
         Me.ProgressBar4.Name = "ProgressBar4"
-        Me.ProgressBar4.Size = New System.Drawing.Size(100, 23)
+        Me.ProgressBar4.Size = New System.Drawing.Size(100, 21)
         Me.ProgressBar4.TabIndex = 12
         Me.ProgressBar4.Visible = False
         '
         'ProgressBar5
         '
-        Me.ProgressBar5.Location = New System.Drawing.Point(18, 290)
+        Me.ProgressBar5.Location = New System.Drawing.Point(18, 268)
         Me.ProgressBar5.Name = "ProgressBar5"
-        Me.ProgressBar5.Size = New System.Drawing.Size(100, 23)
+        Me.ProgressBar5.Size = New System.Drawing.Size(100, 21)
         Me.ProgressBar5.TabIndex = 13
         Me.ProgressBar5.Visible = False
         '
         'ProgressBar6
         '
-        Me.ProgressBar6.Location = New System.Drawing.Point(144, 290)
+        Me.ProgressBar6.Location = New System.Drawing.Point(144, 268)
         Me.ProgressBar6.Name = "ProgressBar6"
-        Me.ProgressBar6.Size = New System.Drawing.Size(100, 23)
+        Me.ProgressBar6.Size = New System.Drawing.Size(100, 21)
         Me.ProgressBar6.TabIndex = 14
         Me.ProgressBar6.Visible = False
         '
         'ProgressBar7
         '
-        Me.ProgressBar7.Location = New System.Drawing.Point(271, 290)
+        Me.ProgressBar7.Location = New System.Drawing.Point(271, 268)
         Me.ProgressBar7.Name = "ProgressBar7"
-        Me.ProgressBar7.Size = New System.Drawing.Size(100, 23)
+        Me.ProgressBar7.Size = New System.Drawing.Size(100, 21)
         Me.ProgressBar7.TabIndex = 15
         Me.ProgressBar7.Visible = False
         '
         'ProgressBar8
         '
-        Me.ProgressBar8.Location = New System.Drawing.Point(408, 290)
+        Me.ProgressBar8.Location = New System.Drawing.Point(408, 268)
         Me.ProgressBar8.Name = "ProgressBar8"
-        Me.ProgressBar8.Size = New System.Drawing.Size(100, 23)
+        Me.ProgressBar8.Size = New System.Drawing.Size(100, 21)
         Me.ProgressBar8.TabIndex = 16
         Me.ProgressBar8.Visible = False
         '
         'ProgressBar9
         '
-        Me.ProgressBar9.Location = New System.Drawing.Point(581, 290)
+        Me.ProgressBar9.Location = New System.Drawing.Point(581, 268)
         Me.ProgressBar9.Name = "ProgressBar9"
-        Me.ProgressBar9.Size = New System.Drawing.Size(100, 23)
+        Me.ProgressBar9.Size = New System.Drawing.Size(100, 21)
         Me.ProgressBar9.TabIndex = 17
         Me.ProgressBar9.Visible = False
         '
         'ProgressBar10
         '
-        Me.ProgressBar10.Location = New System.Drawing.Point(581, 330)
+        Me.ProgressBar10.Location = New System.Drawing.Point(581, 305)
         Me.ProgressBar10.Name = "ProgressBar10"
-        Me.ProgressBar10.Size = New System.Drawing.Size(100, 23)
+        Me.ProgressBar10.Size = New System.Drawing.Size(100, 21)
         Me.ProgressBar10.TabIndex = 18
         Me.ProgressBar10.Visible = False
         '
@@ -244,9 +253,9 @@ Partial Class Form1
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.Ransomeware.My.Resources.Resources.loader_gif_300_spinner_white
-        Me.PictureBox1.Location = New System.Drawing.Point(28, 361)
+        Me.PictureBox1.Location = New System.Drawing.Point(28, 333)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(100, 50)
+        Me.PictureBox1.Size = New System.Drawing.Size(100, 46)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 19
         Me.PictureBox1.TabStop = False
@@ -257,11 +266,11 @@ Partial Class Form1
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(166, 423)
+        Me.Label2.Location = New System.Drawing.Point(166, 390)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(342, 18)
+        Me.Label2.Size = New System.Drawing.Size(232, 18)
         Me.Label2.TabIndex = 22
-        Me.Label2.Text = "Don't turn off your computer, this will take a while."
+        Me.Label2.Text = "请勿关闭电脑，这需要一段时间"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         '
         'Label1
@@ -269,19 +278,19 @@ Partial Class Form1
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(165, 361)
+        Me.Label1.Location = New System.Drawing.Point(165, 333)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(304, 48)
+        Me.Label1.Size = New System.Drawing.Size(186, 24)
         Me.Label1.TabIndex = 23
-        Me.Label1.Text = "Windows is working on updates" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "wait till complete"
+        Me.Label1.Text = "正在升级你的系统"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(120, Byte), Integer), CType(CType(215, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(741, 487)
+        Me.ClientSize = New System.Drawing.Size(741, 450)
         Me.ControlBox = False
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Label2)

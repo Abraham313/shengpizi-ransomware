@@ -112,20 +112,9 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Label2.Text" xml:space="preserve">
-    <value>If you want to decrypt your files follow this simple steps:
-
-1.) Create BitcoinWallet
-2.) Buy Bitcoins worth of $500
-3.) Send $500 in BitCoin to Given Address
-4.) Go to xxxx.xxx.xxx and Enter your Personal Id
-5.) You will get your Decryption Key
-6.) Enter it in Given Box and Click on Decrypt
-7.) Restart your Computer and Delete any encrypted file you find</value>
-  </data>
 </root>

